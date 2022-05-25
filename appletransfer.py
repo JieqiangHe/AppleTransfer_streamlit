@@ -14,7 +14,7 @@ def get_data(filename):
 
 with header:
     st.write("""
-    # 🍎 APPLE Translator
+    # 🍎 Apple Translator
     ###### *Description: transfer Apple transcript (gene) id to TAIR id with function description.*
     """)
     species = st.multiselect("Select One Specie:", ["Arabidopsis", "Tomato"],default=["Arabidopsis"])
